@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+body {
+	font-family: "Droid Arabic Kufi", Tahoma, serif;
+	direction: rtl;
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+	font-family: "Droid Arabic Naskh", Arial, serif;
+	font-weight: bold;
+}
+ 
+.sticky-button {
+	width: 100px;
+	height: 50px;
+	border: 1px solid #DFDFDF;
+	border-right: none;
+	border-radius: 5px;
+    position: fixed;
+    right: 0;
+    top: 7%;
+    margin-right: -5px;
+    background-color: #F03C2E;
+    color: white !important;
+}
+
+.sticky-button:hover {
+	text-decoration: none;
+}
