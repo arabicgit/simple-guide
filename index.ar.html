@@ -22,7 +22,7 @@
             <br />
             يُرجى التبليغ عن الأخطاء على <a href="https://github.com/arabicgit/simple-guide/issues">github</a>
         </p>
-        <img src="img/arrow.png" alt="" />
+        <img src="img/arrow.png" alt="arrow picture" />
     </div>
     <!-- setup -->
     <a name="setup"></a>
@@ -53,7 +53,7 @@
         <p>
             أنشئ نسخة عمل من مستودع محلي عبر تنفيذ الأمر التالي<br />
             <code dir="ltr">git clone /المسار/إلى/المستودع</code><br />
-            في حال تواجد المستودع على خادوم بعيد، فعدّل على الأمر ليُصبح على الشكل التالي:<br />
+            في حال وجود المستودع على خادوم بعيد، عَدّل على الأمر ليُصبح على الشكل التالي:<br />
             <code dir="ltr">git clone المسار/إلى/المستودع/:المضيف@اسم_المستخدم</code>
         </p>
     </div>
@@ -61,12 +61,12 @@
     <div class="scrollblock block-trees">
         <h2>سير العمل</h2>
         <p>
-            مُستودعك المحلّي عبارة عن ثلاث "شجرات" يعتني بها Git.
+            مُستودعك المحلّي عبارة عن ثلاث «شجرات» يعتني بها Git.
             الشجرة الأولى هي الـ <code>Working Directory</code> أي مجلّد العمل والتي تحتوي الملفات الحالية.
             أما الثانية فهي الـ <code>Index</code> أي الفهرس، والتي تلعب دور منطقة الإدراج (staging area) والأخيرة هي الـ 
             <code>HEAD</code> -أو الرأس- والتي يشير إلى آخر إيداع "commit" قمت به.
         </p>
-        <img src="img/trees.png" alt="" />
+        <img src="img/trees.png" alt="Trees picture" />
     </div>
     <a name="add"></a>
     <div class="scrollblock block-add">
@@ -84,7 +84,7 @@
     <div class="scrollblock block-remote">
         <h2>دفع التغيّرات</h2>
         <p>
-            التغيّرات التي أحدثتها متواجدة على مستوى الرأس <b>HEAD</b> الخاص بالنسخة المحلية للمستودع. لإرسال هذه التغيّرات إلى المستودع الموجود على الخادوم، نفذّ <br />
+            التغيّرات التي أحدثتها موجودة على مستوى الرأس <b>HEAD</b> الخاص بالنسخة المحلية للمستودع. لإرسال هذه التغيّرات إلى المستودع الموجود على الخادوم، نفذّ <br />
             <code dir="ltr">git push origin master</code><br />
             غيّر <i>master</i> إلى اسم الفرع الذي تريد دفع التغيّرات إليه.
             <br /><br />
