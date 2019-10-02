@@ -1,7 +1,7 @@
 # git - الدّليل البسيط
 
 مجرّد دليل بسيط لمباشرة العمل بـ Git بدون وجع الرأس ;)
-http://www.arabicgit.com/simple-guide/
+http://webcandle.github.io/simple-guide/
 
 
 
